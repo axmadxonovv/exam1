@@ -55,3 +55,30 @@
 //   });
 // };
 // func();
+
+// 4-mashq
+// document.querySelector("button").addEventListener("click", () => {
+//   let func = async () => {
+//     await fetch("https://jsonplaceholder.typicode.com/users")
+//       .then((data) => {
+//         return data.json();
+//       })
+//       .then((dat) => {
+//         dat.forEach((val) => {
+//           document.querySelector("#data1").innerHTML = val.name;
+//           document.querySelector("#data2").innerHTML = val.phone;
+//           document.querySelector("#data3").innerHTML = val.email;
+//         });
+//       });
+//   };
+//   func();
+// });
+
+//5-masala
+
+// document.querySelector("#btn").addEventListener("click", () => {
+//   console.log("Ism:", document.getElementById("nm").value);
+//   console.log("Email:", document.getElementById("em").value);
+//   console.log("Parol:", "Parol kitildi!");
+//   event.preventDefault();
+// });

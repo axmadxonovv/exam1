@@ -6,12 +6,11 @@ let renderContacts = () => {
   contacts.forEach((contact, index) => {
     const li = document.createElement("li");
     li.innerHTML = `
-      <span>${contact.name} - ${contact.phone} ${
-      contact.email ? `(${contact.email})` : ""
+      <span>${contact.name}  ${contact.phone} ${
+      contact.email ? `${contact.email}` : ""
     }</span>
       <button onclick="deleteContact(${index})">O'chirish</button>
     `;
-
     contactList.appendChild(li);
   });
 };
